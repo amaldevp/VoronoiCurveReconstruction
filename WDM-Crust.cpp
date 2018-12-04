@@ -100,7 +100,7 @@ void pointset(void)
     char n1[255];
     strcpy(n1,"wdm");
     strcat(n1,name);
-     printf("%s",n1);
+   //  printf("%s",n1);
     fp2=fopen(n1,"w");
     glLineWidth(3.0);
     glEnable( GL_LINE_SMOOTH );
@@ -306,10 +306,11 @@ int main(int argc, char **argv)
     glutInitDisplayMode(GLUT_SINGLE | GLUT_RGBA);
     glutInitWindowSize(250, 250);
     wd = glutCreateWindow("Experiment with line drawing");
-    FILE *fp=fopen("in.txt","r");
-bloop:fscanf(fp,"%s",in);
+  //  FILE *fp=fopen("in.txt","r");
+bloop://fscanf(fp,"%s",in);
+    strcpy(in,argv[1]);
      strcpy(name,in);
-    fclose(fp);
+  //  fclose(fp);
     std::ifstream ifs(in);
     assert( ifs );
     Site_2 t;
