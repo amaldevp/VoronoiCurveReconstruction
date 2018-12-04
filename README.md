@@ -76,7 +76,7 @@ To execute the program:
         
         77.81007751937985 77.24418604651163
         
-  3. Run the program. MAKE USE OF THE SCRIPTS AND INSTRUCTIONS WRITTEN IN "https://github.com/amaldevp/Crawl_through_Neighbors" PROJECT TO RUN AND INSTALL CGAL AND OUR CODE.
+  3. Run the program. Make use of the given script to install the required packages.
   4. Provide the display size of vertices. Give "1", if it is not relevant to you.
   
   Thanks and best wishes!!!
